@@ -14,13 +14,11 @@ public class Rectangle extends Shape {
 
 	@Override
 	public double calculateArea() {
-		// TODO Auto-generated method stub
 		return width*height;
 	}
 
 	@Override
 	public double calculatePerimeter() {
-		// TODO Auto-generated method stub
 		return 2*(width + height);
 	}
 
